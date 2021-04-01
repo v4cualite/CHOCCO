@@ -449,5 +449,5 @@ img {
 
 .order-section {
   position: relative;
-  background-color: green;
+  background: url("../img/background3.png");
 }
