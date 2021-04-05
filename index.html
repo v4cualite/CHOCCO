@@ -13,9 +13,11 @@
     <div class="wrapper">
         <div class="maincontent">
             <section class="hero">
-                <div class="container">
+                <div class="container hero__container">
                     <header class="header">
-                        <img src="./img/Лого.png" alt="chocco logo">
+                        <div class="logo"><a href="#"><img src="./img/Лого.png" alt="chocco logo" class="logo__img" ></a>
+                        </div>
+                        
                         <nav class="menu">
                             <ul class="menu__list">
                                 <li class="menu__item">
@@ -50,36 +52,30 @@
                         </a>
                     </header>
                     <div class="hero__title-section">
-                        <h1 class="hero__main-title">Натуральные шоколадные батончики</h1>
+                        <h1 class="hero__title-section title">Натуральные шоколадные батончики</h1>
                         <div class="hero__title-desc">Наши батончики идеально подходят для тех, кто следит за своим
                             здоровьем</div>
                         <a href="#" class="btn btn--theme--white">Заказать</a>
                     </div>
                     <div class="hero__icons-section">
                         <ul class="features">
-                            <li>
-                                <div class="features__item feature">
+                            <li class="features__item feature">
                                     <div class="feature__icon">
-                                        <img src="./img/main-2.svg" alt="leaf icon">
-                                    </div>
+                                        <img src="./img/main-2.svg" alt="leaf icon"> </div>
                                     <div class="feature__text">100% натуральный продукт</div>
-                                </div>
+                                
                             </li>
-                            <li>
-                                <div class="features__item feature">
+                            <li class="features__item feature">
                                     <div class="feature__icon">
-                                        <img src="./img/main-3.svg" alt="leaf icon">
-                                    </div>
+                                        <img src="./img/main-3.svg" alt="leaf icon"></div>
                                     <div class="feature__text">3-5 дней доставка по РФ</div>
-                                </div>
+                                
                             </li>
-                            <li>
-                                <div class="features__item feature">
+                            <li class="features__item feature">
                                     <div class="feature__icon">
-                                        <img src="./img/main-1.svg" alt="leaf icon">
-                                    </div>
+                                        <img src="./img/main-1.svg" alt="leaf icon"></div>
                                     <div class="feature__text">Не портит фигуру</div>
-                                </div>
+                                
                             </li>
                         </ul>
 
@@ -90,12 +86,12 @@
                     </ul>
 
                 </div>
-        </div>
+        
         </section>
         <section class="section benefits-section">
             <div class="container">
-                <div class="headline">
-                    <h2 class="section__title headline__title">Почему CHOCCO?</h2>
+                <div class="benefits-section__headline headline">
+                    <h2 class="title">Почему CHOCCO?</h2>
                     <div class="headline__subtitle">В нашем мире все происходит очень быстро, поэтому мы делаем
                         батончики, которые удобно взять с собой.</div>
                     <ul class="benefits">
@@ -132,10 +128,10 @@
                             </div>
                         </li>
                         <li class="benefits__item benefit">
-                            <div class="benefit__image">
+                            
                                 <div class="benefit__image__wrapper">
                                     <img src="./img/feat-3.svg" alt="happy human" class="benefit__icon">
-                                </div>
+                                
                             </div>
                             <div class="benefit__text">
                                 <h3 class="benefit__title">Питательно</h3>
@@ -200,7 +196,7 @@
         </section>
         <section class="section order-section section-font--color--green">
             <div class="container">
-                <h2 class="section__title">Закажите доставку</h2>
+                <h2 class="title">Закажите доставку</h2>
                 <form class="form">
                     <div class="form__col">
                         <div class="form__row">
@@ -268,11 +264,12 @@
                             <div class="radio__visible"></div>
                             <div class="radio__title">Потребуется сдача</div>
                         </label>
-                        </div>
                         <div class="form__btns">
                             <input type="submit" value="Заказать" class="btn btn--theme--green">
                             <input type="reset" value="Очистить" class="btn btn--theme--transparent">
                         </div>
+                        </div>
+                        
                     </div>
                     
                 </form>
@@ -291,6 +288,7 @@
             <li class="fixed-menu__item"> <a href="" class="fixed-menu__link"></a></li>
         </ul>
     </nav>
+</div>
 </body>
 
 </html>
