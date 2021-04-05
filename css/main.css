@@ -28,6 +28,14 @@ body {
   position: relative;
 }
 
+.title {
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
 h1,
 h2,
 h3,
@@ -74,7 +82,7 @@ img {
 }
 
 .hero {
-  background: url("../img/blue-decor.png") right center no-repeat;
+  background: url("../../img/blue-decor.png") right center no-repeat;
   background-color: #61c4d9;
   color: #fff;
   height: 100vh;
@@ -85,13 +93,13 @@ img {
   position: absolute;
   bottom: -40px;
   left: 2%;
-  content: url("../img/3.png");
+  content: url("../../img/3.png");
 }
 .hero:after {
   position: absolute;
   bottom: -40px;
   left: 60%;
-  content: url("../img/comp.png");
+  content: url("../../img/comp.png");
 }
 
 .hero__title-section {
@@ -107,21 +115,13 @@ img {
 }
 
 .hero__main-title {
-  font-size: 48px;
-  line-height: 1.1;
-  font-weight: bold;
-  margin-bottom: 15px;
-  text-transform: uppercase;
+  display: flex;
 }
 
 .hero__title-desc {
   font-size: 21px;
   margin-bottom: 28px;
   padding-right: 10%;
-}
-
-.hero__icons-section {
-  height: 100%;
 }
 
 .header {
@@ -266,7 +266,7 @@ img {
   position: relative;
 }
 .benefits__item::before {
-  content: url("../img/shape.svg");
+  content: url("../../img/shape.svg");
   position: absolute;
   top: 30px;
   right: 0;
@@ -307,10 +307,10 @@ img {
 
 .benefits-section {
   position: relative;
-  background: url("../img/decor.png") left top 57% no-repeat;
+  background: url("../../img/decor.png") left top 57% no-repeat;
 }
 .benefits-section::before {
-  content: url("../img/raspberry.png");
+  content: url("../../img/raspberry.png");
   position: absolute;
   bottom: -80px;
   left: 0;
@@ -369,6 +369,11 @@ img {
   font-size: 18px;
   font-weight: bold;
   color: black;
+}
+
+.reviews__switcher {
+  display: flex;
+  justify-content: center;
 }
 
 .interactive-avatar {
@@ -454,7 +459,7 @@ img {
   border-radius: 0;
 }
 .radio--checkbox::before {
-  background: url("../img/vector.png");
+  background: url("../../img/vector.png");
 }
 
 .radio__elem {
@@ -486,7 +491,7 @@ img {
 
 .order-section {
   position: relative;
-  background: url("../img/background3.png");
+  background: url("../../img/background3.png");
 }
 
 .fixed-menu {
