@@ -4,6 +4,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    &--font--color--green {
+        color: $darkgreen;
+
+        .section__title {
+            color: inherit;
+        }
+    }
 }
 .section__title {
     font-size: 48px;
