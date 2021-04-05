@@ -4,6 +4,8 @@ $baseFontSize: 18px;
 $blue: #61c4d9;
 $darkgreen: #0b4d3c;
 
+$z-fixed-menu: 100;
+
 @import "./layout/normalize.css";
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@300;400;500;700&display=swap');
 @import "layout";
@@ -23,4 +25,3 @@ $darkgreen: #0b4d3c;
 @import "./components/radio.scss";
 @import "./components/delivery.scss";
 @import "./components/fixed-menu.scss";
-
