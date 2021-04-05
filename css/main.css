@@ -74,7 +74,7 @@ img {
 }
 
 .hero {
-  background: url("../../img/blue-decor.png") right center no-repeat;
+  background: url("../img/blue-decor.png") right center no-repeat;
   background-color: #61c4d9;
   color: #fff;
   height: 100vh;
@@ -85,13 +85,13 @@ img {
   position: absolute;
   bottom: -40px;
   left: 2%;
-  content: url("../../img/3.png");
+  content: url("../img/3.png");
 }
 .hero:after {
   position: absolute;
   bottom: -40px;
   left: 60%;
-  content: url("../../img/comp.png");
+  content: url("../img/comp.png");
 }
 
 .hero__title-section {
@@ -266,7 +266,7 @@ img {
   position: relative;
 }
 .benefits__item::before {
-  content: url("../../img/shape.svg");
+  content: url("../img/shape.svg");
   position: absolute;
   top: 30px;
   right: 0;
@@ -307,10 +307,10 @@ img {
 
 .benefits-section {
   position: relative;
-  background: url("../../img/decor.png") left top 57% no-repeat;
+  background: url("../img/decor.png") left top 57% no-repeat;
 }
 .benefits-section::before {
-  content: url("../../img/raspberry.png");
+  content: url("../img/raspberry.png");
   position: absolute;
   bottom: -80px;
   left: 0;
@@ -454,7 +454,7 @@ img {
   border-radius: 0;
 }
 .radio--checkbox::before {
-  background: url("../../img/vector.png");
+  background: url("../img/vector.png");
 }
 
 .radio__elem {
@@ -486,7 +486,7 @@ img {
 
 .order-section {
   position: relative;
-  background: url("../../img/background3.png");
+  background: url("../img/background3.png");
 }
 
 .fixed-menu {
