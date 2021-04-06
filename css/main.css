@@ -81,7 +81,7 @@ img {
 }
 
 .hero {
-  background: url("../img/blue-decor.png") right center no-repeat;
+  background: url("../../img/blue-decor.png") right center no-repeat;
   background-color: #61c4d9;
   color: #fff;
   height: 100vh;
@@ -103,6 +103,7 @@ img {
 
 .hero__title-section {
   width: 46%;
+  margin-bottom: 15px;
 }
 
 .hero__container {
@@ -194,28 +195,28 @@ img {
   display: inline-block;
   border: none;
 }
-.btn--theme--white {
+.btn--white {
   background: #fff;
   color: #0b4d3c;
 }
-.btn--theme--white:hover {
+.btn--white:hover {
   color: #fff;
   background: #0b4d3c;
 }
-.btn--theme--white--theme--green {
+.btn--green {
   background: #0b4d3c;
   color: #fff;
 }
-.btn--theme--white--theme--green:hover {
+.btn--green:hover {
   color: #0b4d3c;
   background: #fff;
 }
-.btn--theme--white--theme--green--theme--transparent {
+.btn--transparent {
   background: transparent;
   color: #000;
   text-transform: none;
 }
-.btn--theme--white--theme--green--theme--transparent:hover {
+.btn--transparent:hover {
   color: #0b4d3c;
 }
 
@@ -458,7 +459,7 @@ img {
   border-radius: 0;
 }
 .radio--checkbox::before {
-  background: url("../img/vector.png");
+  background: url("../img/Vector.png") center center no-repeat;
 }
 
 .radio__elem {
