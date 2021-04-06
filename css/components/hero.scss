@@ -9,17 +9,18 @@
         position: absolute;
         bottom: -40px;
         left: 2%;
-        content: url("../../img/3.png");}
+        content: url("../img/3.png");}
     &:after {
             position: absolute;
             bottom: -40px;
             left: 60%;
-            content: url("../../img/comp.png");
+            content: url("../img/comp.png");
         
     }
 }
 .hero__title-section {
     width: 46%;
+    margin-bottom: 15px;
     
 }
 .hero__container {
