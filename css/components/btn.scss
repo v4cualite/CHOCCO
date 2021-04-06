@@ -9,21 +9,21 @@
     display: inline-block;
     border: none;
 
-    &--theme--white {
+    &--white {
         background: #fff;
         color: $darkgreen;
         &:hover {
             color: #fff;
             background: $darkgreen;
         }
-    &--theme--green {
+    &--green {
         background: $darkgreen;
         color: #fff;
         &:hover {
             color: $darkgreen;
             background: #fff;
         }
-        &--theme--transparent {
+        &--transparent {
             background: transparent;
             color: #000;
             text-transform: none;
