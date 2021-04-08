@@ -3,16 +3,16 @@
     background-color: $blue;
     color:#fff;
     height: 100vh;
-    min-height: 650px;
+    min-height: rem(650px);
     position: relative;
     &:before {
         position: absolute;
-        bottom: -40px;
+        bottom: rem(-40px);
         left: 2%;
         content: url("../img/3.png");}
     &:after {
             position: absolute;
-            bottom: -40px;
+            bottom: rem(-40px);
             left: 60%;
             content: url("../img/comp.png");
         
@@ -20,7 +20,7 @@
 }
 .hero__title-section {
     width: 46%;
-    margin-bottom: 15px;
+    margin-bottom: rem(15px);
     
 }
 .hero__container {
@@ -28,7 +28,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    padding: 24px 0 45px;
+    padding: rem(24px) 0 rem(45px);
 }
 
 .hero__main-title {
@@ -38,7 +38,7 @@
 
 }
 .hero__title-desc {
-    font-size: 21px;
-    margin-bottom: 28px;
+    font-size: rem(21px);
+    margin-bottom: rem(28px);
   padding-right: 10%;
 }
