@@ -1,11 +1,15 @@
 $contaiterWidth: 940px;
 $baseFontSize: 18px;
 
+$tablets: 768px;
+$phones: 480px;
+
 $blue: #61c4d9;
 $darkgreen: #0b4d3c;
 
 $z-fixed-menu: 100;
 
+@import "./components/media.scss";
 @import "./layout/normalize.css";
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@300;400;500;700&display=swap');
 @import "layout";
@@ -25,3 +29,8 @@ $z-fixed-menu: 100;
 @import "./components/radio.scss";
 @import "./components/delivery.scss";
 @import "./components/fixed-menu.scss";
+@import "./components/hamburger.scss";
+@import "./components/contacts.scss";
+@import "./components/footer.scss";
+@import "./components/socials.scss";
+

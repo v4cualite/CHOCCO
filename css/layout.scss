@@ -1,5 +1,7 @@
 html {
     font-size: $baseFontSize;
+    
+
     @include tablets {
         font-size: $baseFontSize - 1px;
         
@@ -11,7 +13,7 @@ html {
     }
 
 }
-html,
+html
 body {
     height: 100%;
 }
@@ -85,4 +87,5 @@ a {
 img {
     display: block;
     max-width: 100%;
+    
 }
