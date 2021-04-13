@@ -50,12 +50,12 @@
                             </span>
                             <span class="phone-number__text">8 800 903 90 90</span>
                         </a>
-                            <a href="" class="hamburger">
-                                <span class="hamburger__plank"></span>
-                                <span class="hamburger__plank"></span>
-                                <span class="hamburger__plank"></span>
-
-                            </a>
+                        <div class="hamburger-menu">
+                            <input id="menu__toggle" type="checkbox" />
+                            <label class="menu__btn" for="menu__toggle">
+                              <span></span>
+                            </label>
+                            </div>
                     </header>
                     <div class="hero__title-section">
                         <h1 class="title">Натуральные шоколадные батончики</h1>
@@ -66,20 +66,20 @@
                     <div class="hero__icons-section">
                         <ul class="features">
                             <li class="features__item feature">
-                                    <div class="feature__icon">
-                                        <img src="./img/main-2.svg" alt="leaf icon"> </div>
+                                <div class="feature__icon icon__leaf"></div>
+                                        
                                     <div class="feature__text">100% натуральный продукт</div>
                                 
                             </li>
                             <li class="features__item feature">
-                                    <div class="feature__icon">
-                                        <img src="./img/main-3.svg" alt="leaf icon"></div>
+                                    <div class="feature__icon icon__car"></div>
+                                        
                                     <div class="feature__text">3-5 дней доставка по РФ</div>
                                 
                             </li>
                             <li class="features__item feature">
-                                    <div class="feature__icon">
-                                        <img src="./img/main-1.svg" alt="leaf icon"></div>
+                                    <div class="feature__icon icon__rule"></div>
+                                        
                                     <div class="feature__text">Не портит фигуру</div>
                                 
                             </li>
@@ -104,7 +104,7 @@
                         <li class="benefits__item benefit">
                             <div class="benefit__image">
                                 <div class="benefit__image-wrapper">
-                                    <img src="./img/feat-2.svg" alt="happy human" class="benefit__icon">
+                                    <div class="benefit__icon icon__healthy"></div>
                                 </div>
                             </div>
                             <div class="benefit__text">
@@ -120,7 +120,10 @@
                         <li class="benefits__item benefit">
                             <div class="benefit__image">
                                 <div class="benefit__image-wrapper">
-                                    <img src="./img/feat-1.svg" alt="happy human" class="benefit__icon">
+                                    <div class="benefit__icon icon__tasty">
+
+                                    </div>
+                                    
                                 </div>
                             </div>
                             <div class="benefit__text">
@@ -134,9 +137,10 @@
                             </div>
                         </li>
                         <li class="benefits__item benefit">
-                            
+                            <div class="benefit__image">
                                 <div class="benefit__image-wrapper">
-                                    <img src="./img/feat-3.svg" alt="happy human" class="benefit__icon">
+                                    <div class="benefit__icon icon__nutrisious"></div>
+                            </div>
                             </div>
                             <div class="benefit__text">
                                 <h3 class="benefit__title">Питательно</h3>
@@ -310,16 +314,33 @@
                 </address>
                 <ul class="socials">
                     <li class="socials__item socials__item-vk">
-                        <a href="" class="socials__link"></a>
+                        <a href="" class="socials__link">
+                            <svg>
+                                <use xlink:href="./img/sprite.svg#vk"></use>
+                            </svg>
+                            
+                        </a>
                     </li> 
                     <li class="socials__item socials__item-fb">
-                        <a href="" class="socials__link"></a>
+                        <a href="" class="socials__link">
+                            <svg>
+                                <use xlink:href="./img/sprite.svg#fb"></use>
+                            </svg>
+                        </a>
                     </li> 
                     <li class="socials__item socials__item-in">
-                        <a href="" class="socials__link"></a>
+                        <a href="" class="socials__link">
+                            <svg>
+                                <use xlink:href="./img/sprite.svg#in"></use>
+                            </svg>
+                        </a>
                     </li> 
                     <li class="socials__item socials__item-tw">
-                        <a href="" class="socials__link"></a>
+                        <a href="" class="socials__link">
+                            <svg>
+                                <use xlink:href="./img/sprite.svg#tv"></use>
+                            </svg>
+                        </a>
                     </li> 
                 </ul>
             </div>
