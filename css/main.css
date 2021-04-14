@@ -94,7 +94,7 @@ img {
 }
 
 .hero {
-  background: url("../img/blue-decor.png") right center no-repeat;
+  background: url("../../img/blue-decor.png") right center no-repeat;
   background-color: #61c4d9;
   color: #fff;
   height: 100vh;
@@ -274,15 +274,15 @@ img {
 }
 
 .icon__car {
-  background: url("../img/main-3.svg") center no-repeat;
+  background: url("/img/main-3.svg") center no-repeat;
 }
 
 .icon__rule {
-  background: url("../img/main-1.svg") center center no-repeat;
+  background: url("/img/main-1.svg") center center no-repeat;
 }
 
 .icon__leaf {
-  background: url("../img/main-2.svg") center center no-repeat;
+  background: url("/img/main-2.svg") center center no-repeat;
 }
 
 .btn {
@@ -419,20 +419,6 @@ img {
   }
 }
 
-.icon__tasty {
-  background: url(../img/feat-1.png) center center no-repeat;
-}
-
-.icon__healthy {
-  height: 3.7777777778rem;
-  width: 3.7777777778rem;
-  background: url(../img/feat-2.svg) center center no-repeat;
-}
-
-.icon__nutrisious {
-  background: url(../img/feat-3.svg) center center no-repeat;
-}
-
 .benefit__image-wrapper {
   display: inline-block;
   width: 7rem;
@@ -460,6 +446,22 @@ img {
     margin-bottom: 0;
     margin-right: 1.1111111111rem;
   }
+}
+
+.benefit__text {
+  text-align: center;
+}
+
+.benefit__text-tasty::before {
+  content: url(../../img/feat-1.svg);
+}
+
+.benefit__text-healthy::before {
+  content: url(../../img/feat-2.svg);
+}
+
+.benefit__text-nutrisious::before {
+  content: url(../../img/feat-3.svg);
 }
 
 .benefits-section {
@@ -848,4 +850,11 @@ h2 {
 .socials__item {
   display: inline-block;
   vertical-align: middle;
+}
+
+.phone-icon {
+  margin-right: 0.2777777778rem;
+  width: 1.3333333333rem;
+  height: 1.3333333333rem;
+  fill: white;
 }
