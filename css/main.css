@@ -94,7 +94,7 @@ img {
 }
 
 .hero {
-  background: url("../../img/blue-decor.png") right center no-repeat;
+  background: url("/../img/blue-decor.png") right center no-repeat;
   background-color: #61c4d9;
   color: #fff;
   height: 100vh;
@@ -274,15 +274,15 @@ img {
 }
 
 .icon__car {
-  background: url("/img/main-3.svg") center no-repeat;
+  background: url("../img/main-3.svg") center no-repeat;
 }
 
 .icon__rule {
-  background: url("/img/main-1.svg") center center no-repeat;
+  background: url("../img/main-1.svg") center center no-repeat;
 }
 
 .icon__leaf {
-  background: url("/img/main-2.svg") center center no-repeat;
+  background: url("../img/main-2.svg") center center no-repeat;
 }
 
 .btn {
