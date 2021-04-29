@@ -94,7 +94,7 @@ img {
 }
 
 .hero {
-  background: url("/../img/blue-decor.png") right center no-repeat;
+  background: url("../img/blue-decor.png") right center no-repeat;
   background-color: #61c4d9;
   color: #fff;
   height: 100vh;
