@@ -94,7 +94,7 @@ img {
 }
 
 .hero {
-  background: url("../../img/blue-decor.png") right bottom no-repeat;
+  background: url("../img/blue-decor.png") right bottom no-repeat;
   background-color: #61c4d9;
   color: #fff;
   height: 100vh;
@@ -142,7 +142,7 @@ img {
     content: "";
     width: 17.5555555556rem;
     height: 18.3333333333rem;
-    background: url(../img/comp.png) center center/contain no-repeat;
+    background: url(../img/comp.png) center center no-repeat;
     margin-bottom: 0.8888888889rem;
   }
 }
@@ -263,7 +263,7 @@ img {
   display: flex;
 }
 .feature ::before {
-  content: url(../../img/comp.svg);
+  content: url(../img/comp.svg);
   position: absolute;
   bottom: -3.3333333333rem;
   right: -8.8888888889rem;
@@ -280,15 +280,15 @@ img {
 }
 
 .icon__car {
-  background: url("/img/car.svg") center no-repeat;
+  background: url("../img/car.svg") center no-repeat;
 }
 
 .icon__rule {
-  background: url("/img/rulet.svg") center center no-repeat;
+  background: url("../img/rulet.svg") center center no-repeat;
 }
 
 .icon__leaf {
-  background: url("/img/1.svg") center center no-repeat;
+  background: url("../img/1.svg") center center no-repeat;
 }
 
 .btn {
