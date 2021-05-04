@@ -671,7 +671,7 @@ img {
   border-radius: 0.2222222222rem;
 }
 .radio--checkbox .radio__visible:before {
-  background: url(../../img/Vector.svg) center center no-repeat;
+  background: url(../img/Vector.svg) center center no-repeat;
 }
 
 .radio__elem {
