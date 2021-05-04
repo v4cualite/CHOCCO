@@ -2,21 +2,27 @@
     display: flex;
     cursor: pointer;
     user-select: none;
+    
     @include phones {
         margin-bottom: rem(10px);
     }
     &--checkbox {
         .radio__visible {
-            border-radius: 0;
+            border-radius: rem(4px);
+        
+        &:before {
+            background: url(../../img/Vector.svg) center center no-repeat;
         }
-        &::before {
-            background: url("../img/Vector.png") center center no-repeat;
-        }
+    }
     }
 
 }
 .radio__elem {
-    display: none;
+    position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
     &:checked ~ .radio__visible {
         &::before  {
             display: block;
@@ -33,6 +39,8 @@
     position: relative;
     border-radius: 50%;
     background: #fff;
+    margin-right: rem(10px);
+    margin-bottom: rem(18px);
     
     &::before{
         content: "";
@@ -49,4 +57,7 @@
     }
 
 
+}
+.radio1 {
+    margin-left: rem(25px);
 }

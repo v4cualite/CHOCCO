@@ -54,6 +54,7 @@
 .form__controls {
    display: flex;
    flex-wrap: wrap;
+   margin-right: rem(3px);
 
    @include phones{
        justify-content: center;
