@@ -1,5 +1,5 @@
 @import "./layout/normalize.css";
-@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;700&display=swap");
 html {
   font-size: 18px;
 }
@@ -94,32 +94,32 @@ img {
 }
 
 .hero {
-  background: url("../img/blue-decor.png") right center no-repeat;
+  background: url("../../img/blue-decor.png") right bottom no-repeat;
   background-color: #61c4d9;
   color: #fff;
   height: 100vh;
   min-height: 36.1111111111rem;
   position: relative;
 }
-.hero::before {
+.hero::after {
   position: absolute;
   bottom: -2.2222222222rem;
   left: 2%;
   content: url("../img/3.png");
 }
-.hero::after {
+.hero::before {
   position: absolute;
-  bottom: -2.2222222222rem;
-  left: 60%;
-  content: url("../img/comp.png");
+  bottom: 6.1111111111rem;
+  left: 59%;
+  content: url("../img/chocco1.png");
 }
 @media screen and (max-width: 768px) {
-  .hero::after {
+  .hero::before {
     display: none;
   }
 }
 @media screen and (max-width: 480px) {
-  .hero::after {
+  .hero::before {
     display: none;
   }
 }
@@ -262,6 +262,12 @@ img {
 .feature {
   display: flex;
 }
+.feature ::before {
+  content: url(../../img/comp.svg);
+  position: absolute;
+  bottom: -3.3333333333rem;
+  right: -8.8888888889rem;
+}
 
 .feature__icon {
   width: 2.7777777778rem;
@@ -274,15 +280,15 @@ img {
 }
 
 .icon__car {
-  background: url("../img/main-3.svg") center no-repeat;
+  background: url("/img/car.svg") center no-repeat;
 }
 
 .icon__rule {
-  background: url("../img/main-1.svg") center center no-repeat;
+  background: url("/img/rulet.svg") center center no-repeat;
 }
 
 .icon__leaf {
-  background: url("../img/main-2.svg") center center no-repeat;
+  background: url("/img/1.svg") center center no-repeat;
 }
 
 .btn {
@@ -449,15 +455,15 @@ img {
 }
 
 .icon__healthy {
-  background: url(../img/feat-2.svg) center center no-repeat;
+  background: url(../img/feat-2.png) center center no-repeat;
 }
 
 .icon__tasty {
-  background: url(../img/feat-1.svg) center center no-repeat;
+  background: url(../img/feat-1.png) center center no-repeat;
 }
 
 .icon__nutrisious {
-  background: url(../img/feat-3.svg) center center no-repeat;
+  background: url(../img/feat-3.png) center center no-repeat;
 }
 
 .benefits-section {
@@ -636,6 +642,7 @@ img {
 .form__controls {
   display: flex;
   flex-wrap: wrap;
+  margin-right: 0.1666666667rem;
 }
 @media screen and (max-width: 480px) {
   .form__controls {
@@ -661,14 +668,18 @@ img {
   }
 }
 .radio--checkbox .radio__visible {
-  border-radius: 0;
+  border-radius: 0.2222222222rem;
 }
-.radio--checkbox::before {
-  background: url("../img/Vector.png") center center no-repeat;
+.radio--checkbox .radio__visible:before {
+  background: url(../../img/Vector.svg) center center no-repeat;
 }
 
 .radio__elem {
-  display: none;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 .radio__elem:checked ~ .radio__visible::before {
   display: block;
@@ -680,6 +691,8 @@ img {
   position: relative;
   border-radius: 50%;
   background: #fff;
+  margin-right: 0.5555555556rem;
+  margin-bottom: 1rem;
 }
 .radio__visible::before {
   content: "";
@@ -692,6 +705,10 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.radio1 {
+  margin-left: 1.3888888889rem;
 }
 
 .order-section {
@@ -850,7 +867,14 @@ h2 {
 
 .phone-icon {
   margin-right: 0.2777777778rem;
-  width: 1.3333333333rem;
-  height: 1.3333333333rem;
+  width: 0.7738888889rem;
+  height: 0.7655555556rem;
   fill: white;
+}
+
+.phone-icon_footer {
+  margin-right: 0.2777777778rem;
+  width: 0.6666666667rem;
+  height: 0.6666666667rem;
+  fill: #497870;
 }
