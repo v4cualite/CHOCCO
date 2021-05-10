@@ -104,7 +104,7 @@ img {
 }
 
 .hero {
-  background: url("../../img/blue-decor.png") right bottom no-repeat;
+  background: url("../img/blue-decor.png") right bottom no-repeat;
   background-color: #61c4d9;
   color: #fff;
   height: 100vh;
@@ -279,7 +279,7 @@ img {
   display: flex;
 }
 .feature ::before {
-  content: url(../../img/comp.svg);
+  content: url(../img/comp.svg);
   position: absolute;
   bottom: -3.3333333333rem;
   right: -8.8888888889rem;
@@ -296,15 +296,15 @@ img {
 }
 
 .icon__car {
-  background: url("/img/car.svg") center no-repeat;
+  background: url("../img/car.svg") center no-repeat;
 }
 
 .icon__rule {
-  background: url("/img/rulet.svg") center center no-repeat;
+  background: url("../img/rulet.svg") center center no-repeat;
 }
 
 .icon__leaf {
-  background: url("/img/1.svg") center center no-repeat;
+  background: url("../img/1.svg") center center no-repeat;
 }
 
 .btn {
@@ -732,7 +732,7 @@ img {
   border-radius: 0.2222222222rem;
 }
 .radio--checkbox .radio__visible:before {
-  background: url(../../img/Vector.svg) center center no-repeat;
+  background: url(../img/Vector.svg) center center no-repeat;
 }
 
 .radio__elem {
@@ -950,5 +950,5 @@ h2 {
   height: 652px;
   left: 0px;
   top: 5205px;
-  background-image: url(../../img/map.png);
+  background-image: url(../img/map.png);
 }
