@@ -3,7 +3,7 @@ $baseFontSize: 18px;
 
 $tablets: 768px;
 $phones: 480px;
-
+$phones_375: 375px;
 $blue: #61c4d9;
 $darkgreen: #0b4d3c;
 
@@ -34,3 +34,4 @@ $z-fixed-menu: 100;
 @import "./components/footer.scss";
 @import "./components/socials.scss";
 @import "./components/phone-icon.scss";
+@import "./components/map.scss";

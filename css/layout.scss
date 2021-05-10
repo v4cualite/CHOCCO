@@ -8,7 +8,11 @@ html {
     }
 
     @include phones {
-        font-size: $baseFontSize - 2px;
+        font-size: $baseFontSize - 3px;
+
+    }
+    @include phones_375 {
+        font-size: $baseFontSize - 3px;
 
     }
 
@@ -47,6 +51,9 @@ body {
     line-height: 1.1;
     font-weight: bold;
     text-transform: uppercase;
+    @include phones_375 {
+        font-size: rem(25px);
+    }
 }
 h1,
 h2,

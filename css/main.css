@@ -10,7 +10,12 @@ html {
 }
 @media screen and (max-width: 480px) {
   html {
-    font-size: 16px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 15px;
   }
 }
 
@@ -46,6 +51,11 @@ body {
   line-height: 1.1;
   font-weight: bold;
   text-transform: uppercase;
+}
+@media screen and (max-width: 375px) {
+  .title {
+    font-size: 1.3888888889rem;
+  }
 }
 
 h1,
@@ -94,7 +104,7 @@ img {
 }
 
 .hero {
-  background: url("../img/blue-decor.png") right bottom no-repeat;
+  background: url("../../img/blue-decor.png") right bottom no-repeat;
   background-color: #61c4d9;
   color: #fff;
   height: 100vh;
@@ -111,7 +121,7 @@ img {
   position: absolute;
   bottom: 6.1111111111rem;
   left: 59%;
-  content: url("../img/CHOCCO1.png");
+  content: url("../img/chocco1.png");
 }
 @media screen and (max-width: 768px) {
   .hero::before {
@@ -184,6 +194,12 @@ img {
   .hero__title-desc {
     padding: 0 24%;
     margin-bottom: 0.8888888889rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .hero__title-desc {
+    padding: 0 6%;
+    font-size: 1.0555555556rem;
   }
 }
 
@@ -263,7 +279,7 @@ img {
   display: flex;
 }
 .feature ::before {
-  content: url(../img/comp.svg);
+  content: url(../../img/comp.svg);
   position: absolute;
   bottom: -3.3333333333rem;
   right: -8.8888888889rem;
@@ -280,15 +296,15 @@ img {
 }
 
 .icon__car {
-  background: url("../img/car.svg") center no-repeat;
+  background: url("/img/car.svg") center no-repeat;
 }
 
 .icon__rule {
-  background: url("../img/rulet.svg") center center no-repeat;
+  background: url("/img/rulet.svg") center center no-repeat;
 }
 
 .icon__leaf {
-  background: url("../img/1.svg") center center no-repeat;
+  background: url("/img/1.svg") center center no-repeat;
 }
 
 .btn {
@@ -424,6 +440,12 @@ img {
     text-align: left;
   }
 }
+@media screen and (max-width: 375px) {
+  .benefit {
+    display: flex;
+    text-align: left;
+  }
+}
 
 .benefit__image-wrapper {
   display: inline-block;
@@ -434,6 +456,12 @@ img {
   border-radius: 50%;
   overflow: hidden;
 }
+@media screen and (max-width: 375px) {
+  .benefit__image-wrapper {
+    width: 5rem;
+    height: 5rem;
+  }
+}
 
 .benefit__icon {
   width: 4.1666666667rem;
@@ -442,6 +470,9 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .benefit__image {
@@ -453,17 +484,22 @@ img {
     margin-right: 1.1111111111rem;
   }
 }
+@media screen and (max-width: 375px) {
+  .benefit__image {
+    margin-bottom: 0;
+  }
+}
 
 .icon__healthy {
-  background: url(../img/feat-2.png) center center no-repeat;
+  background-image: url(../img/feat-2.png);
 }
 
 .icon__tasty {
-  background: url(../img/feat-1.png) center center no-repeat;
+  background-image: url(../img/feat-1.png);
 }
 
 .icon__nutrisious {
-  background: url(../img/feat-3.png) center center no-repeat;
+  background-image: url(../img/feat-3.png);
 }
 
 .benefits-section {
@@ -487,6 +523,11 @@ img {
   padding: 2.7777777778rem 2.5rem 1.8888888889rem;
   overflow: hidden;
   position: relative;
+}
+@media screen and (max-width: 375px) {
+  .reviews__display {
+    padding: 1.3888888889rem 1.1666666667rem 1.5rem;
+  }
 }
 .reviews__display::before {
   content: "";
@@ -531,6 +572,11 @@ img {
 .reviews__content {
   flex: 1;
   margin-left: 1.1111111111rem;
+}
+@media screen and (max-width: 375px) {
+  .reviews__content {
+    margin-left: 0;
+  }
 }
 
 .reviews__title {
@@ -630,9 +676,19 @@ img {
   padding: 1rem 0.6111111111rem;
   border: solid 0.1666666667rem transparent;
 }
+@media screen and (max-width: 375px) {
+  .form__input {
+    padding: 0;
+  }
+}
 .form__input--textarea {
   height: 10rem;
   resize: none;
+}
+@media screen and (max-width: 375px) {
+  .form__input--textarea {
+    height: 5rem;
+  }
 }
 .form__input:focus {
   border-color: #dee2bd;
@@ -647,6 +703,11 @@ img {
 @media screen and (max-width: 480px) {
   .form__controls {
     justify-content: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .form__controls {
+    flex-wrap: nowrap;
   }
 }
 
@@ -671,7 +732,7 @@ img {
   border-radius: 0.2222222222rem;
 }
 .radio--checkbox .radio__visible:before {
-  background: url(../img/Vector.svg) center center no-repeat;
+  background: url(../../img/Vector.svg) center center no-repeat;
 }
 
 .radio__elem {
@@ -714,6 +775,11 @@ img {
 .order-section {
   position: relative;
   background: url("../img/background3.png");
+}
+@media screen and (max-width: 480px) {
+  .order-section .title {
+    font-size: 1.6666666667rem;
+  }
 }
 
 h2 {
@@ -836,7 +902,7 @@ h2 {
 }
 
 .footer__container {
-  height: 5.1666666667rem;
+  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -877,4 +943,12 @@ h2 {
   width: 0.6666666667rem;
   height: 0.6666666667rem;
   fill: #497870;
+}
+
+.map-section {
+  width: 1100px;
+  height: 652px;
+  left: 0px;
+  top: 5205px;
+  background-image: url(../../img/map.png);
 }
