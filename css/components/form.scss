@@ -42,9 +42,16 @@
     border: none;
     padding: rem(18px) rem(11px);
     border:  solid rem(3px)   transparent;
+    @include phones_375 { 
+        padding: 0;
+    }
     &--textarea{
         height: rem(180px);
         resize: none;
+        @include phones_375 {
+           height:  rem(90px);
+
+        }
     }
     &:focus {
         border-color: #dee2bd;
@@ -58,6 +65,9 @@
 
    @include phones{
        justify-content: center;
+   }
+   @include phones_375 {
+       flex-wrap: nowrap;
    }
    
 }

@@ -4,7 +4,10 @@
         display: flex;
         text-align: left;
     }
-
+    @include phones_375 {
+        display: flex;
+        text-align: left;
+    }
 }
 
 .benefit__image-wrapper {
@@ -15,6 +18,10 @@
     background: #f4f5f6;
     border-radius: 50%;
     overflow: hidden;
+    @include phones_375 {
+        width: 5rem;
+        height: 5rem;
+    }
 }
 .benefit__icon {
     width: rem(75px);
@@ -23,6 +30,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
 .benefit__image {
@@ -31,14 +41,17 @@
         margin-bottom: 0;
         margin-right: rem(20px);
     }
-    
+    @include phones_375 {
+        margin-bottom: 0;
+        
+    }
 }
 .icon__healthy {
-background: url(../img/feat-2.png) center center no-repeat;
+background-image: url(../img/feat-2.png) ;
 }
 .icon__tasty {
-    background: url(../img/feat-1.png) center center no-repeat;
+    background-image: url(../img/feat-1.png) ;
 }
 .icon__nutrisious {
-    background: url(../img/feat-3.png) center center no-repeat;
+    background-image: url(../img/feat-3.png) ;
 }

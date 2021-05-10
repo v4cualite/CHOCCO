@@ -81,4 +81,8 @@
         padding: 0 24%;
         margin-bottom: rem(16px);
       }
+      @include phones_375 {
+        padding: 0 6% ;
+        font-size: rem(19px);
+      }
     }

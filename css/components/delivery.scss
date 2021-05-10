@@ -1,7 +1,11 @@
 .order-section{
     position: relative;
     background: url("../img/background3.png");
-    
+    @include phones {
+        .title {
+            font-size: rem(30px) ;
+        }
+    }
     
 }
 

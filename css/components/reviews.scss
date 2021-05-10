@@ -3,6 +3,9 @@
     padding: rem(50px) rem(45px) rem(34px);
     overflow: hidden;
     position: relative;
+    @include phones_375 {
+        padding: rem(25px) rem(21px) rem(27px);
+    }
     &::before {
         content: "";
         width: rem(90px);
@@ -44,6 +47,9 @@
 .reviews__content {
     flex: 1;
     margin-left: rem(20px);
+    @include phones_375 {
+        margin-left: 0;
+    }
 }
 .reviews__title{
     font-size: rem(30px);

@@ -15,3 +15,9 @@
         
     }
 }
+@mixin phones_375 {
+    @media screen  and (max-width: $phones_375) {
+        @content;
+        
+    }
+}
