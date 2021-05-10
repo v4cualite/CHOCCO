@@ -121,7 +121,7 @@ img {
   position: absolute;
   bottom: 6.1111111111rem;
   left: 59%;
-  content: url("../img/chocco1.png");
+  content: url("../img/CHOCCO1.png");
 }
 @media screen and (max-width: 768px) {
   .hero::before {
