@@ -324,7 +324,7 @@ img {
   display: flex;
 }
 .feature ::before {
-  content: url(../../img/comp.svg);
+  content: url(../img/comp.svg);
   position: absolute;
   bottom: -3.3333333333rem;
   right: -8.8888888889rem;
@@ -342,15 +342,15 @@ img {
 }
 
 .icon__car {
-  background: url("/img/car.svg") center no-repeat;
+  background: url("../img/car.svg") center no-repeat;
 }
 
 .icon__rule {
-  background: url("/img/rulet.svg") center center no-repeat;
+  background: url("../img/rulet.svg") center center no-repeat;
 }
 
 .icon__leaf {
-  background: url("/img/1.svg") center center no-repeat;
+  background: url("../img/1.svg") center center no-repeat;
 }
 
 .btn {

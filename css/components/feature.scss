@@ -1,7 +1,7 @@
 .feature {
     display: flex;
     ::before {
-        content: url(../../img/comp.svg);
+        content: url(../img/comp.svg);
         position: absolute;
         bottom: rem(-60px);
         right: rem(-160px);
@@ -19,11 +19,11 @@
 }
 
 .icon__car {
-    background: url("/img/car.svg") center no-repeat;
+    background: url("../img/car.svg") center no-repeat;
 }
 .icon__rule {
-    background: url("/img/rulet.svg")center center no-repeat;
+    background: url("../img/rulet.svg")center center no-repeat;
 }
 .icon__leaf {
-    background: url("/img/1.svg")center center no-repeat;
+    background: url("../img/1.svg")center center no-repeat;
 }
